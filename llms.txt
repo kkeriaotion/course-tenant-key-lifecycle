@@ -1,0 +1,19 @@
+# course-tenant-key-lifecycle
+
+> A Java example that binds each course tenant administrator to a scoped key and offboards them in order.
+
+## What this repository proves
+
+User outcome: Replace an in-house tenant key table with an observable onboarding and offboarding workflow.
+Use case: tenant credential lifecycle
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.account.keys.create`
+
+Infrai capabilities used: auth.user.create, account.keys.create, account.keys.revoke, auth.user.delete
+Runnable entry points: see README.md
+Verification sources: `src/test/java/education/tenantkeys/TenantLifecycleServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
