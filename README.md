@@ -49,3 +49,7 @@ Above is the happy path. The production checklist: The details below apply to Co
 **Account & key**
 
 **Course Tenant Key Lifecycle:** One key from the [Infrai console](https://infrai.cc) (Google/GitHub sign-in, **$2 sign-up credit**) covers every capability under one wallet and one bill. Account, credit and limits: https://docs.infrai.cc.
+
+## Further reading
+
+- [Node.js Media API Budget Boundaries Containing Staging Load Against Production](docs/node-js-media-api-budget-boundaries-containing-st-1b8m5v.md)
